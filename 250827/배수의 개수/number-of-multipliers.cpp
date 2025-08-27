@@ -12,9 +12,9 @@ int main() {
     {
         cin >> A;
         
-        if(A[i]%3==0)
+        if(A%3==0)
             cnt_3++;
-        if(A[i]%5==0)
+        if(A%5==0)
             cnt_5++;
 
     }
