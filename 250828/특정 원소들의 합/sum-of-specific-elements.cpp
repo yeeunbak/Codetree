@@ -12,7 +12,7 @@ int main() {
 
     for(int i=0;i<4;i++)
     {
-        for(int j=0;j<1+i;j++)
+        for(int j=0;j<i+1;j++)
         {
             total+=matrix[i][j];
         }
