@@ -17,7 +17,9 @@ int main() {
         if(cnt==3)
             final_cnt++;
     }
-    cout<<final_cnt;
+    cout << final_cnt;
     // Please write your code here.
     return 0;
+
+    //cnt 와 final_cnt의 위치를 잘 생각하기
 }
