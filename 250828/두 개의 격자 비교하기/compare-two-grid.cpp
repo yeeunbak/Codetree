@@ -22,20 +22,12 @@ int main() {
         for(int j=0;j<N;j++)
         {
             if(matrix1[i][j]==matrix2[i][j])
-            {
                 cout << "0 ";
-            }
-            else
-            {
-                cout << "1 ";
-            }
             
+            else
+                cout << "1 ";
         }
         cout << "\n"; 
-    }
-            
-        
-    
-        
+    }   
     return 0;
 }
