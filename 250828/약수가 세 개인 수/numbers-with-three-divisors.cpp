@@ -10,16 +10,12 @@ int main() {
         int cnt=0;
         for(int i=1;i<=st;i++)
         {   
-            if(st%i==0)
-            {   
+            if(st%i==0)   
                 cnt++;
-            }
         }
 
         if(cnt==3)
-        {
             final_cnt++;
-        }
     }
     cout<<final_cnt;
     // Please write your code here.
