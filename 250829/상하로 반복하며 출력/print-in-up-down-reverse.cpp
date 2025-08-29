@@ -11,7 +11,7 @@ int main() {
 
     for(int i=0;i<N;i++)            //열
     {
-        if(i%2!=0)
+        if(i%2!=0)                      //홀수 열
         {
             int num=1;
             for(int j=N-1;j>=0;j--)    //행
@@ -20,7 +20,7 @@ int main() {
                 num++;
             }
         }
-        else
+        else                            //짝수 열
         {
             for(int j=0;j<N;j++)
             {
