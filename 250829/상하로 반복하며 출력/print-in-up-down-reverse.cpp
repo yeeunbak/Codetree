@@ -6,37 +6,24 @@ int main() {
 
     int N;
     cin >> N;
-
     int arr[N][N];
 
-    for(int i=0;i<N;i++)            //열
+    for(int i=1;i<=N;i++)
     {
-        if(i%2!=0)                      //홀수 열
+        for(int j=1;j<=N;j++)
         {
-            int num=1;
-            for(int j=N-1;j>=0;j--)    //행
-            {   
-                arr[j][i]=num;
-                num++;
-            }
-        }
-        else                            //짝수 열
-        {
-            for(int j=0;j<N;j++)
+            if(j%2!=0)
             {
-                arr[j][i]=j+1;
+                cout << i;
+            }
+            else
+            {
+                cout << N-i+1;
             }
         }
-        
+        cout << "\n";
     }
 
-    for(int i=0;i<N;i++)
-    {
-        for(int j=0;j<N;j++)
-        {
-            cout<<arr[i][j];
-        }
-        cout<<"\n";
-    }
+
     return 0;
 }
