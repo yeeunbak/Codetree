@@ -3,7 +3,6 @@ using namespace std;
 
 int main() {
     // Please write your code here.
-
     int N;
     cin >> N;
     int arr[N][N];
@@ -23,7 +22,5 @@ int main() {
         }
         cout << "\n";
     }
-
-
     return 0;
 }
