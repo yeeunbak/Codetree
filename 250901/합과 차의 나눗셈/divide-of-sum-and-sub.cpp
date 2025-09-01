@@ -7,7 +7,9 @@ int main() {
     int a, b;
     cin >> a >> b;
 
+    double sum = a+b;
+    double sub = a-b;
     cout << fixed << setprecision(2);
-    cout << (a+b)/(a-b);
+    cout << sum/sub;
     return 0;
 }
