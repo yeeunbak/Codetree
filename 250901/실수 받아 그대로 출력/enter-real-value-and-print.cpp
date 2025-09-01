@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     // Please write your code here.
-    int N;
+    double N;
     cout << fixed;
     cout.setprecision(2);
 
