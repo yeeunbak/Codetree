@@ -7,11 +7,11 @@ int main() {
     cin >> a >> b >> c;
     int min;
 
-    if(b>a && c>a)
+    if(b>=a && c>=a)
         min = a;
-    else if(a>b && c>b)
+    else if(a>=b && c>=b)
         min = b;
-    else if(a>c && b>c)
+    else if(a>=c && b>=c)
         min = c;
     
     cout << (a==min) << " ";
