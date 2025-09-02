@@ -10,7 +10,7 @@ int main() {
     else if(m>=6 && m<=8)
         cout << "Summer";
     else if(m>=9 && m<=11)
-        cout << "Autumn";
+        cout << "Fall";
     else if(m==12 || m<=2)
         cout << "Winter";
     return 0;
