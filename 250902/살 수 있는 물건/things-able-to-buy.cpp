@@ -6,9 +6,11 @@ int main() {
     int N;
     cin >> N;
 
-    if(N<=3000)
+    if(N>=3000)
         cout << "book";
-    else if(N<=1000)
+    else if(N<3000 && N>=1000)
         cout << "mask";
+    else if(N<1000)
+        cout << "no";        
     return 0;
 }
