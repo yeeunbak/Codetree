@@ -7,7 +7,7 @@ int main() {
     while(n<=26)
     {
         cout << n;
-        i+=2;
+        n+=2;
     }
     return 0;
 
