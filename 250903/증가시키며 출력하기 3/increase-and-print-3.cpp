@@ -6,7 +6,7 @@ int main() {
     int n=10;
     while(n<=26)
     {
-        cout << n;
+        cout << n << " ";
         n+=2;
     }
     return 0;
