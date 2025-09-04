@@ -9,12 +9,12 @@ int main() {
 
     for(int i=1;i<=day;i++)
     {
-        if(i%2==0 && i%3!=0 && i%12!=0)
-            c_room++;
-        else if(i%3==0 && i%12!=0)
-            hall++;
-        else if(i%12==0)
+        if(i%12==0)
             toi++;
+        else if(i%3==0)
+            hall++;
+        else if(i%2==0)
+            c_room++;
     }
     cout << c_room << " " << hall << " " << toi;
     return 0;
