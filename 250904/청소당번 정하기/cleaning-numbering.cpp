@@ -13,7 +13,7 @@ int main() {
             c_room++;
         else if(i%3==0 && i%12!=0)
             hall++;
-        else if(i%12==0 && i!=0)
+        else if(i%12==0 && i!=0) // 0%12==0 이 경우 제외 
             toi++;
     }
     cout << c_room << " " << hall << " " << toi;
