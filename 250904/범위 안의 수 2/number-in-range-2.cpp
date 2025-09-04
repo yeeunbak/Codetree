@@ -10,8 +10,11 @@ int main() {
     for(int i=0;i<10;i++)
     {
         cin >> n;
-        sum+=n;
-        cnt++;
+        if(n>=0 && n<=200)
+        {
+            sum+=n;
+            cnt++;
+        }
     }
     double avg = double(sum)/double(cnt);
     cout << sum << " ";
