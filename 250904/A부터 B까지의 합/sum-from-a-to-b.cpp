@@ -9,7 +9,7 @@ int main() {
     int sum=0;
     for(a;a<=b;a++)
     {
-        sum=+a;
+        sum+=a;
     }
     cout << sum;
     return 0;
