@@ -11,7 +11,7 @@ int main() {
         cin >> n;
         if(i%3==0)
             cnt_3++;
-        else if(i%5==0)
+        if(i%5==0)
             cnt_5++;
     }
     cout << cnt_3 << " " << cnt_5;
