@@ -11,6 +11,6 @@ int main() {
     {
         prod *= a;
     }
-    cout << a;
+    cout << prod;
     return 0;
 }
