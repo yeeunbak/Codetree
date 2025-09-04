@@ -9,12 +9,12 @@ int main() {
 
     if(c=='A')
     {
-        for(int i=1;i<=N;i++)
+        for(int i=1;i<=n;i++)
             cout << i << " ";
     }
     if(c=='D')
     {
-        for(int i=N;i>=N;i--)
+        for(int i=n;i>=n;i--)
             cout << i << " ";
     }
     return 0;
