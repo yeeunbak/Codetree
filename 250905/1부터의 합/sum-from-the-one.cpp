@@ -9,12 +9,13 @@ int main() {
     int sum=0;
     for(int i=1;i<=100;i++)
     {   
+        sum+=i;
         if(sum>=n)
         {
-            cout << sum;
+            cout << i;
             break;
         }
-        sum+=i;
+
     }
     return 0;
 }
