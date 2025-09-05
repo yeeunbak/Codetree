@@ -5,16 +5,16 @@ int main() {
     // Please write your code here.
     int a, b, c;
     cin >> a >> b >> c;
-    bool satisfied = true;
+    bool satisfied = true; // c의 배수가 전혀 없다
 
     for(int i=a;i<=b;i++)
     {
         if(c%i==0)
-            satisfied = false;
+            satisfied = false;  // c의 배수가 있을 경우
     }
-    if(satisfied==true)
-        cout << "NO";
+    if(satisfied==true) // c의 배수가 전혀 없다
+        cout << "YES"; 
     else
-        cout << "YES";
+        cout << "NO";
     return 0;
 }
