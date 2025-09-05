@@ -10,7 +10,7 @@ int main() {
     while(1)
     {
         cin >> age;
-        if(age%10==2)
+        if(age/10==2)
         {
             sum+=age;
             cnt++;
