@@ -9,7 +9,7 @@ int main() {
 
     for(int i=a;i<=b;i++)
     {
-        if(i%c==0 && c<i)
+        if(i%c==0)
             satisfied = false;   // c의 배수가 있을 경우
     }
     
