@@ -5,17 +5,15 @@ int main() {
     // Please write your code here.
     int a, b;
     cin >> a >> b;
-    bool composite_1920 = false;
-    bool composite_2880 = false;
+    bool composite = false;
+
     for(int i=a;i<=b;i++)
     {
-        if(1920%i==0)
-            composite_1920 = true;
-        if(2880%i==0)
-            composite_2880 = true;
+        if(1920%i==0 && 2880%i==0)
+            composite = true;
     }
 
-    if(composite_1920 == true && composite_2880 == true)
+    if(composite == true)
         cout << "1";
     else
         cout << "0";
