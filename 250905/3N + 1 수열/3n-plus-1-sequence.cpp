@@ -11,15 +11,10 @@ int main() {
         if(n!=1)
         {
             if(n%2==0)
-            {
                 n = n/2;
-                cnt++;
-            }
             else
-            {
                 n = (n*3)+1;
-                cnt++;
-            }
+            cnt++;
         }
         else
             break;
