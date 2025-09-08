@@ -16,13 +16,12 @@ int main() {
     for(int i=0;i<10;i++)
     {
         if(arr[i]>=250)
-        {
-            double avg = double(sum)/cnt;
-            cout << sum << " ";
-            cout << fixed << setprecision(1) << avg;
             break;
-        }
         sum+=arr[i];
         cnt++;
     }
+
+    double avg = double(sum)/cnt;
+    cout << sum << " ";
+    cout << fixed << setprecision(1) << avg;
 }
