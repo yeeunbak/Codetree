@@ -9,15 +9,19 @@ int main() {
     int cnt = n;
 
     for(int i=0;i<2*n-1;i++)
-    {   
-        for(int j=0;j<cnt;j++)
-            cout << "* ";
-        cout << "\n";
-
-        if(i<n-1)
-            cnt--;
+    {
+        if(i<n)
+        {
+            for(int j=n;j>i;j--)
+                cout << "* ";
+            cout << "\n";
+        }
         else
-            cnt++;
+        {
+            for(int j=0;j<=i-n+1;j++)
+                cout << "* ";
+            cout << "\n";
+        }
     }
     return 0;
 }
