@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -17,7 +18,8 @@ int main() {
         if(arr[i]>=250)
         {
             double avg = double(sum)/cnt;
-            cout << sum << " " << avg;
+            cout << sum << " ";
+            cout << fixed << setprecision(1) << avg;
             break;
         }
         sum+=arr[i];
