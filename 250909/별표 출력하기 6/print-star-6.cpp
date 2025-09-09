@@ -18,11 +18,11 @@ int main() {
         }
         else
         {
-            cnt--;
-            for(int j=0;j<cnt-1;j++)
+            for(int j=0;j<cnt-2;j++)
                 cout << "  ";
             for(int j=0;j<2*i-2*n+3;j++)
                 cout << "* ";
+            cnt--;
         }
         cout << "\n";
     }
