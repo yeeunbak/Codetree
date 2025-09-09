@@ -10,7 +10,7 @@ int main() {
     {
         for(int k=0;k<1;k++)
         {
-            for(int j=0;j<4-i;j++)
+            for(int j=0;j<n-i;j++)
                 cout << "*";
             for(int j=0;j<i;j++)
                 cout << " ";
@@ -19,7 +19,7 @@ int main() {
         {
             for(int j=0;j<i;j++)
                 cout << " ";
-            for(int j=0;j<4-i;j++)
+            for(int j=0;j<n-i;j++)
                 cout << "*";
         }
         cout << "\n";
