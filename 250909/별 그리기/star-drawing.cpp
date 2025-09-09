@@ -13,7 +13,6 @@ int main() {
     {
         if(i<n)
         {
-            
             for(int j=0;j<cnt-1;j++)
                 cout << " ";            
             for(int j=0;j<2*i+1;j++)
@@ -24,7 +23,7 @@ int main() {
         {
             for(int j=0;j<cnt+1;j++)
                 cout << " ";
-            for(int j=0;j<3-2*i+2*n;j++)
+            for(int j=0;j<n-2*(i-n);j++)
                 cout << "*";
             cnt++;
         }
