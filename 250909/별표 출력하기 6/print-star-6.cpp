@@ -6,7 +6,7 @@ int main() {
     int n;
     cin >> n;
     int cnt=0;
-    for(int i=0;i<2*n;i++)
+    for(int i=0;i<2*n-1;i++)
     {
         if(i<n)
         {
@@ -21,7 +21,7 @@ int main() {
             cnt--;
             for(int j=0;j<cnt-1;j++)
                 cout << "  ";
-            for(int j=0;j<2*i-2*n+1;j++)
+            for(int j=0;j<2*i-2*n+3;j++)
                 cout << "* ";
         }
         cout << "\n";
