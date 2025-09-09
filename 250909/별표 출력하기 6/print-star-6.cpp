@@ -20,7 +20,7 @@ int main() {
         {
             for(int j=0;j<cnt-2;j++)
                 cout << "  ";
-            for(int j=0;j<2*i-2*n+3;j++)
+            for(int j=0;j<2*i-2*n+3;j++)  //2(i-n)+3, i=4,5,6을 i=0,1,2로
                 cout << "* ";
             cnt--;
         }
