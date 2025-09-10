@@ -2,32 +2,21 @@
 
 using namespace std;
 
-int main() {
-    // Please write your code here.
-    
-    int n;
-    cin >> n;
-    int cnt=n;
+int n;
 
-    for(int i=0;i<2*n-1;i++)
-    {
-        if(i<n)
-        {
-            for(int j=0;j<cnt-1;j++)
-                cout << " ";            
-            for(int j=0;j<2*i+1;j++)
-                cout << "*";
-            cnt--;
-        }
-        else
-        {
-            for(int j=0;j<cnt+1;j++)
-                cout << " ";
-            for(int j=0;j<(2*n-1)-2*(i-n)-2;j++) //n에 따라 31, 531, 7531 ... 점화식 세우기
-                cout << "*";
-            cnt++;
-        }
+int main() {
+    cin >> n;
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n - i - 1; j++) cout << " ";
+        for (int j = 0; j < i * 2 + 1; j++) cout << "*";
         cout << "\n";
-    }    
+    }
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < i + 1; j++) cout << " ";
+        for (int j = 0; j < (n - i - 1) * 2 - 1; j++) cout << "*";
+        cout << "\n";
+    }
+
     return 0;
 }
