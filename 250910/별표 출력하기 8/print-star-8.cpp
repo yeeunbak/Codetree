@@ -9,8 +9,8 @@ int main() {
     {
         if(i%2!=0)
         {
-            for(int j=0;j<i+1;j++) 
-                cout << "* \n";
+            for(int j=0;j<i+1;j++) cout << "* ";
+            cout << "\n";
         }
         else
             cout << "*\n";
