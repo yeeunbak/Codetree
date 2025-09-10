@@ -23,7 +23,7 @@ int main() {
         {
             for(int j=0;j<cnt+1;j++)
                 cout << " ";
-            for(int j=0;j<(2*n-1)-2*(i-n)-2;j++)
+            for(int j=0;j<(2*n-1)-2*(i-n)-2;j++) //n에 따라 31, 531, 7531 ... 점화식 세우기
                 cout << "*";
             cnt++;
         }
