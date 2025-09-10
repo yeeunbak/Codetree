@@ -10,12 +10,9 @@ int main() {
     {
         if(i%2!=0)
             for(int j=0;j<i/2+1;j++) cout << "* ";
-
         else
             for(int j=0;j<(2*n-i)/2;j++) cout << "* ";
-
         cout << "\n";
     }
-    
     return 0;
 }
