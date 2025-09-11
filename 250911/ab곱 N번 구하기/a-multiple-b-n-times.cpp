@@ -8,7 +8,6 @@ int main() {
     
     int a, b;
 
-
     for(int i=0;i<n;i++)
     {
         int val = 1;
