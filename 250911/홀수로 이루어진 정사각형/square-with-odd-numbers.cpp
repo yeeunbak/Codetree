@@ -8,15 +8,9 @@ int main() {
 
     for(int i=0;i<n;i++)
     {
-        int val = 11+2*i;
         for(int j=0;j<n;j++)
-        {
-            cout << val << " ";
-            val+=2;
-        }
+            cout << 2*i + 2*j + 11 << " ";
         cout << "\n";
     }
     return 0;
 }
-
-//그냥 2i+2j+11을 출력해도 됨.
