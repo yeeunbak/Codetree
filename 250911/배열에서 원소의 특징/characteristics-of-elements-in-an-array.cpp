@@ -11,17 +11,6 @@ int main() {
         {
             cout << arr[i-1];
             break;
-        \}
-    \}
-    return 0;
-\}
-
-$0
-        cin >> arr[i];
-        if(arr[i]%3==0)
-        {
-            cout << arr[i-1];
-            break;
         }
     }
     return 0;
