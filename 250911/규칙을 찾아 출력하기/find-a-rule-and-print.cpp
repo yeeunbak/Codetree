@@ -10,8 +10,10 @@ int main() {
     {
         for(int j=0;j<n;j++)
         {
-            if(i>j || i==0 || j==n-1) cout << "* ";
-            else cout << "  ";
+            if(i>j || i==0 || j==n-1) 
+                cout << "* ";
+            else
+                cout << "  ";
         }
         cout << "\n";
     }
