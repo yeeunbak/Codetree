@@ -6,7 +6,7 @@ int main() {
     int n;
     cin >> n;
     int arr[100];
-    int arr_cnt[10] = {0, };
+    int arr_cnt[10] = { };
 
     for(int i=0;i<n;i++)
     {
