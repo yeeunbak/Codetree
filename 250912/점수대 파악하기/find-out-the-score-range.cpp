@@ -18,7 +18,7 @@ int main() {
 
     for(int i=0;i<cnt;i++)
     {
-        if(arr[i]>10)
+        if(arr[i]>=10)
             arr_cnt[(arr[i]/10)-1]++;
     }
     
