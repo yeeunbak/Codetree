@@ -12,7 +12,7 @@ int main() {
 
     for(int i=0;i<100;i++)
     {
-        if(a>1)
+        if(a>=1)
         {
             a = a/b;
             arr[a%b]++;
