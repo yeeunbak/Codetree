@@ -12,7 +12,7 @@ int main() {
 
     for(int i=0;i<100;i++)
     {
-        if(a>=1)
+        if(a>1)
         {
             a = a/b;
             arr[a%b]++;
@@ -20,8 +20,8 @@ int main() {
         }
     }
 
-    for(int i=0;i<cnt;i++)
-        sum+= (arr[i])*(arr[i]);
+    for(int i=0;i<cnt+1;i++)
+        sum+=(arr[i])*(arr[i]);
 
     cout << sum;
     return 0;
