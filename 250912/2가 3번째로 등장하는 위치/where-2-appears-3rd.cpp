@@ -7,9 +7,8 @@ int main() {
     cin >> n;
 
     int arr[100];
-    int pos = 0;
     int cnt = 0;
-    
+
     for(int i=0;i<n;i++)
     {
         cin >> arr[i];
@@ -18,13 +17,12 @@ int main() {
             cnt++;
             if(cnt==3)
             {
-                pos = i+1;
+                cout << i+1;
                 break;
             }
 
         }
     }
 
-    cout << pos;
     return 0;
 }
