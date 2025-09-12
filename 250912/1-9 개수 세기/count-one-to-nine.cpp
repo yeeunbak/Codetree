@@ -9,10 +9,10 @@ int main() {
     int arr_cnt[10] = {0, };
 
     for(int i=0;i<n;i++)
+    {
         cin >> arr[i];
-    
-    for(int i=0;i<n;i++)
         arr_cnt[arr[i]]++;
+    }
 
     for(int i=1;i<10;i++)
         cout << arr_cnt[i] << "\n";
