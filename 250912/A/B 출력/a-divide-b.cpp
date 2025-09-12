@@ -7,7 +7,7 @@ int main() {
     int a, b;
     cin >> a >> b;
 
-    double num;
+    int num;
     cout << a/b << ".";
 
     for(int i=0;i<20;i++)
