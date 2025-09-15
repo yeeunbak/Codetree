@@ -17,13 +17,13 @@ int main() {
 
     for(int i=0;i<N;i++)
     {
-        if(A[i]>max1)
+        if(A[i]>=max1)
             max1 = A[i];
     }
 
     for(int i=0;i<N;i++)
     {
-        if(A[i]>max2 && A[i]<max1)
+        if(A[i]>=max2 && A[i]<max1)
             max2 = A[i];
     }
 
