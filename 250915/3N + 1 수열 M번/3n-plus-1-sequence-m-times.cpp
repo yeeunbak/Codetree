@@ -15,7 +15,7 @@ int main() {
         while(val!=1)
         {
             if(val%2==0)
-                val=val/2;
+                val=/2;
             else
                 val=(val*3)+1;
             cnt++;
