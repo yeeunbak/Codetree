@@ -13,7 +13,7 @@ int main() {
     //가로평균
     for(int i=0;i<2;i++)
     {
-        int sum = 0;
+        double sum = 0;
         for(int j=0;j<4;j++)
             sum += arr[i][j];
         
@@ -24,7 +24,7 @@ int main() {
     //세로평균
     for(int i=0;i<4;i++)
     {
-        int sum = 0;
+        double sum = 0;
         for(int j=0;j<2;j++)
             sum += arr[j][i];
         cout << fixed << setprecision(1) << double(sum/2) << " ";
@@ -32,7 +32,7 @@ int main() {
     cout << "\n";
 
     //전체평균
-    int total_sum=0;
+    double total_sum=0;
     for(int i=0;i<2;i++)
     {
         for(int j=0;j<4;j++)
