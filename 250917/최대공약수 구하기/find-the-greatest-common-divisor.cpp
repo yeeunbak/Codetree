@@ -4,20 +4,21 @@ using namespace std;
 
 int n, m;
 
-void maxnum(int n, int m){
+void gcd(int n, int m){
 
-    int num;
-    for(int i=1;i<1000;i++)
+    int c;
+    while(m)
     {
-        if((n%i==0) && (m%i==0))
-            num = i;
+        c = n%m;
+        n = m;
+        m = c;
     }
-    cout << num;
+    cout << n;
 }
 
 int main() {
     cin >> n >> m;
-    maxnum(n, m);
+    gcd(n, m);
     // Please write your code here.
 
     return 0;
