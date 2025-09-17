@@ -13,7 +13,6 @@ int main() {
         cin >> r >> c;
 
         arr[r-1][c-1] = num++;
-        
     }
 
     for(int i=0;i<n;i++)
