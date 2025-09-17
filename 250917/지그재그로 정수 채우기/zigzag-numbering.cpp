@@ -7,7 +7,6 @@ int n, m;
 int main() {
     cin >> n >> m;
     // Please write your code here.
-    int arr[100][100];
     for(int i=0;i< n;i++)
     {
         for(int j=0;j<m;j++)
@@ -21,4 +20,3 @@ int main() {
     }
     return 0;
 }
- 
