@@ -7,7 +7,7 @@ int n, m;
 void maxnum(int n, int m){
 
     int num;
-    for(int i=1;i<100;i++)
+    for(int i=1;i<1000;i++)
     {
         if((n%i==0) && (m%i==0))
             num = i;
