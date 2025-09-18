@@ -12,7 +12,7 @@ int main() {
         cin >> str[i];
     char c;
     cin >> c;
-    
+
     int cnt = 0;
     int sum = 0;
     for(int i=0;i<n;i++)
@@ -23,6 +23,7 @@ int main() {
             sum += str[i].length();
         }
     }
-    cout << cnt << " " << fixed << setprecision(2) << double(sum/cnt);
+    
+    cout << cnt << " " << fixed << setprecision(2) << double(sum)/double(cnt);
     return 0;
 }
