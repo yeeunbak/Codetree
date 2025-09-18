@@ -24,6 +24,6 @@ int main() {
         }
     }
     
-    cout << cnt << " " << fixed << setprecision(2) << double(sum)/double(cnt);
+    cout << cnt << " " << fixed << setprecision(2) << double(sum)/cnt;
     return 0;
 }
