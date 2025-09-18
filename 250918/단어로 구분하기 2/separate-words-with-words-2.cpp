@@ -7,10 +7,10 @@ int main() {
 
     for(int i=0;i<10;i++)
     {
-        cin >> arr[i];
+        cin >> str[i];
         if(i%2!=0)
         {
-            cout << arr[i] << "\n";
+            cout << str[i] << "\n";
         }
     }
     return 0;
