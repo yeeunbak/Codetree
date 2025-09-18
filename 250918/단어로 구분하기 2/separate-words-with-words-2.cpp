@@ -8,10 +8,8 @@ int main() {
     for(int i=0;i<10;i++)
     {
         cin >> str[i];
-        if(i%2!=0)
-        {
+        if(i%2==0)
             cout << str[i] << "\n";
-        }
     }
     return 0;
 }
