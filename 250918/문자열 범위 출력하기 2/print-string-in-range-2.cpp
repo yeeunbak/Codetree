@@ -7,7 +7,15 @@ int main() {
     int n;
     cin >> arr >> n;
 
-    for(int i=arr.length()-1;i>=arr.length()-n;i--)
-        cout << arr[i];
+    if(n<arr.length())
+    {
+        for(int i=arr.length()-1;i>=arr.length()-n;i--)
+            cout << arr[i];
+    }
+    else
+    {
+        for(int i=arr.length()-1;i>=0;i--)
+            cout << arr[i];
+    }
     return 0;
 }
