@@ -12,7 +12,7 @@ int main() {
 
     bool exists = false;
     // Please write your code here.
-    for(int i=0;i<input_str.length()-target_str.length()-1;i++)
+    for(int i=0;i<input_str.length();i++)
     {
         if(input_str.substr(i,target_str.length()) == target_str)
         {
