@@ -24,21 +24,20 @@ int main() {
         else if(opt==2)
         {
             int b;
-            bool exists=false;
+            bool exists = false;
 
             cin >> b;
             for(int j=0;j<n;j++)
             {
                 if(arr[j]==b)
-                {
-                    bool exists = true;
+                {   
+                    exists = true;
                     cout << j+1;
                     break;
-                }
-
-                if(exists = false)
-                    cout << 0;
+                }                
             }
+            if(exists == false)
+                cout << 0;
         }
         else if(opt==3)
         {
