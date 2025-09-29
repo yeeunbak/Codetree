@@ -9,6 +9,7 @@ int main() {
 
     string str = to_string(a+b);
     int cnt = 0;
+    
     for(int i=0;i<str.size();i++)
     {
         if(str[i]=='1')
