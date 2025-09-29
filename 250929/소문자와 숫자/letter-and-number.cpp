@@ -16,9 +16,7 @@ int main() {
                 cout << str[i];
         }
         else if(isdigit(str[i]))
-        {
             cout << str[i];
-        }
     }
     return 0;
 }
