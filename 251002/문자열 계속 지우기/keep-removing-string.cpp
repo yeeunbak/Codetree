@@ -8,13 +8,20 @@ int main() {
     cin >> A;
     cin >> B;
 
+    bool is_same = false;
     // Please write your code here.
     for(int i=0;i<A.length();i++)
     {
-        if(A[i]==B[0] && A[i+1]==B[1])
+        int num = 0;
+        if(A[i]==B[0])
         {
-            A.erase(i, 2);
-            i = -1;
+            int cnt=i;
+            while(A[cnt++]==B[num++])
+            {
+                is_same = true;
+                if(is_same==true)
+                    A.erase(i, B.length());
+            }
         }
     }
     cout << A;
