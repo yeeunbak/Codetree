@@ -15,6 +15,7 @@ int main() {
 
         if(opt == 1) 
         {
+            // L
             char front = str[0];
             for(int j=1;j<L;j++)
                 str[j-1] = str[j];
@@ -22,6 +23,7 @@ int main() {
         }
         else if(opt == 2)
         {
+            // R
             char back = str[L-1];
             for(int j=L-1;j>=1;j--)
                 str[j] = str[j-1];
@@ -29,6 +31,7 @@ int main() {
         }
         else if(opt == 3)
         {
+            // Swap
             for(int j=0;j<L/2;j++)
             {
                 char temp = str[j];
