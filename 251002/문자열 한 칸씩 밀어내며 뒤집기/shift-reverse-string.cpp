@@ -23,11 +23,12 @@ int main() {
         }
         else if(opt == 3)
         {
-            string new_str(L, ' ');
-            
-            for(int j=0;j<L;j++)
-                new_str[j] = str[L-1-j];
-            str = new_str;
+            for(int j=0;j<L/2;j++)
+            {
+                char temp = str[j];
+                str[j] = str[L-1-j];
+                str[L-1-j] = temp;
+            }
         }
         cout << str << "\n";
     }
