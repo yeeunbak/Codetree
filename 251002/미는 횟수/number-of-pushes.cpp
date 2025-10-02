@@ -12,7 +12,7 @@ int main() {
 
     for(int i=0;i<L;i++)
     {
-        B = B.substr(L-1, 1) + B.substr(0, L-1);
+        A = A.substr(L-1, 1) + A.substr(0, L-1);
         cnt++;
         if(A==B)
         {
@@ -24,6 +24,6 @@ int main() {
 
     if(is_same==false)
         cout << "-1";
-        
+
     return 0;
 }
