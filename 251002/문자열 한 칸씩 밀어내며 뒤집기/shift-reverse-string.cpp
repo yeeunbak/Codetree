@@ -15,11 +15,17 @@ int main() {
 
         if(opt == 1) 
         {
-            str = str.substr(1, L-1) + str.substr(0, 1); 
+            char front = str[0];
+            for(int j=1;j<L;j++)
+                str[j-1] = str[j];
+            str[L-1] = front;
         }
         else if(opt == 2)
         {
-            str = str.substr(L-1, 1) + str.substr(0, L-1);
+            char back = str[L-1];
+            for(int j=L-1;j>=1;j--)
+                str[j] = str[j-1];
+            str[0] = back;
         }
         else if(opt == 3)
         {
