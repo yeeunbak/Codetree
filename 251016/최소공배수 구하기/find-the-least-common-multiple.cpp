@@ -7,9 +7,8 @@ int n, m;
 void func(int n, int m){
 
     int val = 1;
-
     int Min = min(n, m);
-    int Max = max(n, m);
+
     for(int i=2;i<=Min;i++)
     {
         if((n%i == 0) && (m%i == 0))
